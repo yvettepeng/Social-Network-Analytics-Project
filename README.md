@@ -9,6 +9,7 @@ This part explores how spending profile and social network metrics calculated at
 #### Model 1: 
 For each user’s lifetime point, regress recency and frequency on Y. Recency refers to the last time a user was active, and frequency is how often a user uses the mobile payment app in a month.
 The MSE of Model 1 is plotted as below:
+![image](https://github.com/yvettepeng/Social-Network-Analytics-Project/blob/master/MSE_Model%201.png)
 #### Model 2: 
 For each user’s lifetime point, regress recency, frequency and spending profile on Y.
 The MSE of Model 2 is plotted as below:
