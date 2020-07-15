@@ -9,13 +9,18 @@ This part explores how spending profile and social network metrics calculated at
 #### Model 1: 
 For each user’s lifetime point, regress recency and frequency on Y. Recency refers to the last time a user was active, and frequency is how often a user uses the mobile payment app in a month. <br />
 The MSE of Model 1 is plotted as below: <br />
-![image](https://github.com/yvettepeng/Social-Network-Analytics-Project/blob/master/MSE_Model%201.png)
+![image MSE M1](https://github.com/yvettepeng/Social-Network-Analytics-Project/blob/master/MSE_Model%201.png)
 #### Model 2: 
-For each user’s lifetime point, regress recency, frequency and spending profile on Y.
-The MSE of Model 2 is plotted as below:
+For each user’s lifetime point, regress recency, frequency and spending profile on Y. <br />
+The MSE of Model 2 is plotted as below: <br />
+![image MSE M2](https://github.com/yvettepeng/Social-Network-Analytics-Project/blob/master/MSE_Model%202.png)
 #### Model 3: 
-For each user’s lifetime point, regress social network metrics on Y.
-The MSE of Model 3 is plotted as below:
+For each user’s lifetime point, regress social network metrics on Y. <br />
+The MSE of Model 3 is plotted as below: <br />
+![image MSE M3](https://github.com/yvettepeng/Social-Network-Analytics-Project/blob/master/MSE_Model%203.png)
 #### Model 4: 
-For each user’s lifetime point, regress social network metrics and spending profile of her social network (i.e. friends and friends of friends) on Y.
-The MSE of Model 4 is plotted as below:
+For each user’s lifetime point, regress social network metrics and spending profile of her social network (i.e. friends and friends of friends) on Y. <br /> 
+The MSE of Model 4 is plotted as below: <br />
+![image MSE M4](https://github.com/yvettepeng/Social-Network-Analytics-Project/blob/master/MSE_Model%204.png)
+### Conclusion
+Both the spending profile metrics and social network metrics can add more information onto the traditional RF framework to predict the transaction activity of a user over his or her lifetime. 
